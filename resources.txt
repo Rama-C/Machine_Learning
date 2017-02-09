@@ -1,0 +1,10 @@
+RESOURCES
+
+- Udacity course P5: Identify Fraud from Enron Email
+
+- sklearn documentation
+
+- stackoverflow.com
+
+- http://machinelearningmastery.com
+
