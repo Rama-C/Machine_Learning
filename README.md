@@ -11,13 +11,11 @@ Dataset used:
 
 In 2000, Enron was one of the largest companies in the United States. By 2002, it had collapsed into bankruptcy due to widespread corporate fraud. In the resulting Federal investigation, a significant amount of typically confidential information entered into the public record, including tens of thousands of emails and detailed financial data for top executives. In this project, you will play detective, and put your new skills to use by building a person of interest identifier based on financial and email data made public as a result of the Enron scandal. To assist you in your detective work, we've combined this data with a hand-generated list of persons of interest in the fraud case, which means individuals who were indicted, reached a settlement or plea deal with the government, or testified in exchange for prosecution immunity.
 
-The features in the data fall into three major types, namely financial features, email features and POI labels.
+The goal of this project is to use the given ENRON data and come up with a predictive model which will identify an individual as a "Person of Interest (POI)”. M  achine learning helps in learning the emailing habits of POIs and non-POIs and find any pattern in their emails and test our predictive model  to identify an individual as a POI or not.
 
-financial features: ['salary', 'deferral_payments', 'total_payments', 'loan_advances', 'bonus', 'restricted_stock_deferred', 'deferred_income', 'total_stock_value', 'expenses', 'exercised_stock_options', 'other', 'long_term_incentive', 'restricted_stock', 'director_fees'] (all units are in US dollars)
+The Enron dataset contains 146 records with 1 labeled feature (POI), 14 financial features and 6 email features. The value True/False of the POI feature informs whether the individual is a POI or NON POI.
+The ENRON data have 21 features in total. There are 18 POIs and 128 NON POIs. Some of the features have missing values and represented as 'NaN' .POI cannot be 'NaN
 
-email features: ['to_messages', 'email_address', 'from_poi_to_this_person', 'from_messages', 'from_this_person_to_poi', 'shared_receipt_with_poi'] (units are generally number of emails messages; notable exception is ‘email_address’, which is a text string)
-
-POI label: [‘poi’] (boolean, represented as integer)
 
 This project helped me to 
 - Deal with an imperfect, real-world dataset
