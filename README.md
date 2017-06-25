@@ -1,4 +1,4 @@
-# Machine-Learning
+# Machine Learning
 Project :Identify Fraud from Enron Email
 
 Machine learning brings together computer science and statistics to harness that predictive power.
