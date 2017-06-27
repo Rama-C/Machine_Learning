@@ -5,6 +5,8 @@ Machine learning is a type of artificial intelligence (AI) that provides compute
 
 The goal of this project is to use the given ENRON data and come up with a predictive model which will identify an individual as a "Person of Interest (POI)”. Machine learning helps in learning the emailing habits of POIs and non-POIs and find any pattern in their emails and test our predictive model to identify an individual as a POI or not.
 
+The complete report is available in identifyfraudfromenronemail_finalproject.pdf file
+
 Dataset used:
 
 In 2000, Enron was one of the largest companies in the United States. By 2002, it had collapsed into bankruptcy due to widespread corporate fraud. In the resulting Federal investigation, a significant amount of typically confidential information entered into the public record, including tens of thousands of emails and detailed financial data for top executives. In this project, you will play detective, and put your new skills to use by building a person of interest identifier based on financial and email data made public as a result of the Enron scandal. To assist you in your detective work, we've combined this data with a hand-generated list of persons of interest in the fraud case, which means individuals who were indicted, reached a settlement or plea deal with the government, or testified in exchange for prosecution immunity.
