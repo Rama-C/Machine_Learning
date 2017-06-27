@@ -1,7 +1,7 @@
 # Machine Learning
 Project :Identify Fraud from Enron Email
 
-Machine learning brings together computer science and statistics to harness that predictive power.
+Machine learning is a type of artificial intelligence (AI) that provides computers with the ability to learn without being explicitly programmed. It focuses on the development of computer programs that can change when exposed to new data. It brings together computer science and statistics to harness that predictive power.
 
 The goal of this project is to use the given ENRON data and come up with a predictive model which will identify an individual as a "Person of Interest (POI)”. Machine learning helps in learning the emailing habits of POIs and non-POIs and find any pattern in their emails and test our predictive model to identify an individual as a POI or not.
 
